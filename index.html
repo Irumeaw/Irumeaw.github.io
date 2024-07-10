@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starbucks - Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff; 
+}
+
+.header {
+    background-color: #00704A;
+    color: #ffffff;
+    padding: 0.50% 0;
+}
+
+.jumbotron {
+    position: relative;
+    background-image: url('https://picfiles.alphacoders.com/422/422931.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.feature {
+    background-color: #ffffff; 
+    color: #000000;
+    padding: 80px 0;
+}
+
+img {
+    border-radius: 10%;
+    width: 90%;
+    height: 50%;
+}
+
+.feature-heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.custom-btn {
+    background-color: #00704A;
+    color: #ffffff;
+    border: none;
+}   
+
+.custom-btn:hover {
+    background-color: #005A35;
+}
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 10%;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial {
+    background-color: #5ca356;
+    color: #000000;
+    padding: 50px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #00704A; 
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-bg {
+    background-color: #00704A;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn-outline-dark {
+    border-color: #00704A;
+    color: #00704A;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-dark:hover {
+    background-color: #00704A;
+    color: #ffffff;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="jumbotron">
+<div class="container">
+<h1>Welcome to Starbucks!</h1>
+<p class="lead">Enjoy our delicious coffee and cozy atmosphere.</p>
+<a href="#feature" class="btn btn-lg custom-btn">Learn More</a>
+</div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top custom-bg">
+    <a class="navbar-brand" href="#">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/starbucks-coffee-logo-png-transparent.png" alt="Starbucks Logo" style="height: 50px;width: 50px; margin-right: 5px;">
+        Starbucks
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+    <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#feature">Specialties</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="products.html">Products</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#testimonials">Reviews</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="about.html">About Us</a>
+    </li>
+    </ul>
+    </div>
+</nav>
+
+<section id="feature" class="container my-5">
+  <div class="feature">
+      <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+              <h2 class="feature-heading">Our Specialties</h2>
+              <a href="products.html" class="btn btn-outline-dark">Learn More</a>
+          </div>
+          <div class="row mt-4">
+              <div class="col-md-4">
+                  <div class="feature-item">
+                      <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/15/16/china-coffee-cup.jpg" alt="Specialty 1">
+                      <br> </br>
+                      <h3>Specialty Coffee</h3>
+                      <p>Discover our unique blends crafted by experienced baristas.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="feature-item">
+                      <img src="https://image.freepik.com/free-photo/fresh-baked-pastries-close-up-bakery-showcase_83055-1118.jpg" alt="Specialty 2">
+                      <br> </br>
+                      <h3>Pastries</h3>
+                      <p>Indulge in freshly baked pastries made with love and quality ingredients.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="feature-item">
+                      <img src="https://www.3dshopfree.com/wp-content/uploads/2020/02/246-Interior-Scenes-Cafes-Restauarnts-Modern-style-scaled-600x429.jpg" alt="Specialty 3">
+                      <br> <br>
+                      <h3>Cozy Ambiance</h3>
+                      <p>Relax and unwind in our comfortable and inviting cafe environment.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="testimonials" class="container my-5">
+    <div class="feature">
+    <div class="container">
+    <h2 class="feature-heading">Reviews</h2>
+    <div class="row">
+    <div class="col-md-4">
+    <div class="testimonial">
+    <p>"Coffee Talk delivers very delicious coffee. It is a perfect way to start my day"</p>
+    <p class="text-right"><strong>- Baby Princess</strong></p>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <p>"The pastries made my night change."</p>
+    <p class="text-right"><strong>- seb</strong></p>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <p>"As a journalist that works around the hour, this coffee place is such a perfect place to relax. The ambiance and atmosphere is so relaxing."</p>
+    <p class="text-right"><strong>- Miles Upshur</strong></p>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <p>"This place has got to be one of the cafes that have the best brewed coffee."</p>
+    <p class="text-right"><strong>- Peter Parker</strong></p>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <p>"Best place to get your morning started."</p>
+    <p class="text-right"><strong>- Kratos</strong></p>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <p>"Best cafe to relax after fighting zombies."</p>
+    <p class="text-right"><strong>- Leon Kennedy & Ada Wong</strong></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="about-us" class="container my-5">
+      <div class="feature">
+          <div class="container">
+              <div class="d-flex justify-content-between align-items-center">
+                  <h2 class="about-heading">About Us</h2>
+                  <a href="about.html" class="btn btn-outline-dark">Learn More</a>
+              </div>
+              <div class="row mt-4">
+                  <div class="col-md-4">
+                      <div class="feature-item">
+                          <br>
+                          <img src="https://starbucks.ph/images/img_aboutus1.jpg" alt="History">
+                          <br> <br>
+                          <h3>History</h3>
+                          <p>Coffee Talk was built to be a place to rest for students and workers alike, the owner was inspired to build a cafe so that people can find a place to relax.</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="feature-item">
+                          <img src="https://png.pngtree.com/png-clipart/20220605/original/pngtree-location-pin-icon-with-map-png-image_7949099.png" alt="Location">
+                          <br>
+                          <h3>Location</h3>
+                          <p>We are located at:</p>
+                          <p>CSI The Citymall San Fernando<br>San Fernando, La Union, Philippines</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="feature-item">
+                          <img src="https://www.thefamouspeople.com/profiles/images/howard-schultz-4.jpg" alt="Owner">
+                          <br> <br>
+                          <h3>Owner</h3>
+                          <p>Howard Schultz is the former CEO and chairman of Starbucks. Under his leadership, Starbucks grew from a regional coffee company to one of the world's most recognized and respected brands.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+<footer class="footer">
+<div class="container">
+<p>&copy; 2024 Starbucks. All rights reserved.</p>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const observerOptions = {
+    root: null, 
+    rootMargin: '0px',
+    threshold: 0.1 
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-fade-in');
+        observer.unobserve(entry.target); 
+      }
+    });
+  }, observerOptions);
+
+  const sectionsToAnimate = document.querySelectorAll('#feature .feature, #testimonials .feature, #about-us .feature');
+  sectionsToAnimate.forEach(section => {
+    observer.observe(section);
+  });
+});
+</script>
+</body>
+
+</html>

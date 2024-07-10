@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starbucks - Products</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Jost", sans-serif;
+    background-color: #ffffff;
+    margin-top: 56px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.feature-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #00704A;
+}
+
+.feature-item {
+    margin-bottom: 5px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    color: #00704A;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    text-align: justify;
+}
+
+.footer {
+    background-color: #00704A;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-bg {
+    background-color: #00704A;
+}
+
+.custom-btn {
+    background-color: #00704A;
+    color: #ffffff;
+    border: none;
+}   
+
+.custom-btn:hover {
+    background-color: #005A35;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+h3 {
+    text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top custom-bg">
+    <a class="navbar-brand" href="index.html">
+        <img src="https://cdn.freebiesupply.com/logos/large/2x/starbucks-coffee-logo-png-transparent.png" alt="Starbucks Logo" style="height: 50px; width: 50px; margin-right: 5px;">
+        Starbucks
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="index.html#feature">Specialties</a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="products.html">Products</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="index.html#testimonials">Reviews</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="about.html">About Us</a>
+    </li>
+    </ul>
+    </div>
+</nav>
+
+<section id="products" class="container my-5">
+    <div class="feature">
+    <div class="container">
+    <br> <br> <br>
+    <h2 style="text-align: center; color: #005A35;">Drinks and Pastries</h2>
+    <br> <br>
+    <h2 class="feature-heading">Drinks</h2>
+    <div class="row">
+    <div class="col-md-6">
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/IESP_IcedCaramelMacchiato.jpg" alt="Caramel Macchiato">
+    <div>
+    <h3>Iced Caramel Macchiato</h3>
+    <p style="text-align: center;">Prices: Large: ₱170.00 | Tall: ₱185.00 | Grande: ₱190.00</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/IESP_IcedWhiteChocolateMocha.jpg" alt="Iced White Chocolate Mocha">
+    <div>
+    <h3>Iced White Chocolate Mocha</h3>
+    <p style="text-align: center;">Prices: ₱180.00 | Grande: ₱190.00 | Venti: ₱210.00</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/IESP_IcedAmericano.jpg" alt="Caffè Latte">
+    <div>
+    <h3>Iced Americano</h3>
+    <p style="text-align: center;">Prices: Tall: ₱160.00 | Grande: ₱170.00 | Venti: ₱190.00</p>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/CBRE_ColdBrew.jpg" alt="Brewed Coffee">
+    <div>
+    <h3>Cold Brew</h3>
+    <p style="text-align: center;">Prices: Tall: ₱180.00 | Grande: ₱190.00 | Venti: ₱210.00</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/IESP_IcedCappuccino.jpg" alt="Blended Beverage">
+    <div>
+    <h3>Iced Cappuccino</h3>
+    <p style="text-align: center;">Prices: Tall: ₱190.00 | Grande: ₱200.00 | Venti: ₱215.00</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/HESP_FlatWhite.jpg" alt="Starbucks Refreshers">
+    <div>
+    <h3>Flat White</h3>
+    <p style="text-align: center;">Prices: Tall: ₱180.00 | Grande: ₱190.00 | Venti: ₱210.00</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="feature mt-5">
+    <div class="container">
+    <h2 class="feature-heading">Pastries</h2>
+    <div class="row">
+    <div class="col-md-6">
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbuckscard.ph/sbcard-admin/storage/app/public/menu/567/iKTKFwXqcGCj3LjQWW9F494sWfVIFyYM7VUR6pwJ.png" alt="Chocolate Croissant">
+    <div>
+    <h3>Carrotita Cake</h3>
+    <p style="text-align: center;">Price: ₱250.00 per slice || Best paired with Cold Brew</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbuckscard.ph/sbcard-admin/storage/app/public/menu/570/DF9Z2xXjcpwPmsgd3yjFLIWIEzJhn1oki8wLOuJR.png" alt="Blueberry Muffin">
+    <div>
+    <h3>Chocolate Truffle Cheesecake </h3>
+    <p style="text-align: center;">Price: ₱250.00 per slice || Best paired with Iced Americano</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbuckscard.ph/sbcard-admin/storage/app/public/menu/571/qIe1uo0cs5jXPedT8mh5wkftCdybEJQ2Tg647pdO.png" alt="Cinnamon Roll">
+    <div>
+    <h3>Brookie Whoopie Pie</h3>
+    <p style="text-align: center;">Price: ₱90.00 || Best paired with Flat White</p>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/BelgianWaffle.jpg" alt="Cheese Danish">
+    <div>
+    <h3>Belgian Waffle</h3>
+    <p style="text-align: center;">Price: ₱85.00 || Best paired with Iced Americano</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbucks.ph/seed_data/SPAM%C2%AEClassic,Egg_CheeseonPotatoBread.jpg" alt="Lemon Cake">
+    <div>
+    <h3>SPAM® Classic, Egg & Cheese on Potato Bread</h3>
+    <p style="text-align: center;">Price: ₱120.00 || Best paired with Iced Cold Latte</p>
+    </div>
+    </div>
+    <div class="feature-item animate-fade-in">
+    <img src="https://starbuckscard.ph/sbcard-admin/storage/app/public/menu/568/adwCG82BirsMpgvCN9kNXIo3I5cOISs3IwPjobqu.png" alt="Almond Croissant">
+    <div>
+    <h3>Banana Chocolate Chip Loaf</h3>
+    <p style="text-align: center;">Price: ₱95.00 || Best paired with Iced Americano</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+    <p>© 2024 Starbucks Corporation. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
